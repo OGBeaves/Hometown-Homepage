@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+
+#hero--section {
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), 
+    url(images/virginiabeach.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    text-shadow: 0px 0px 1px #457B9D;
+}
+
+#hero--title {
+    font-family: "Sail", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 45px;
+    letter-spacing: 1px;
+    width: 450px;
+    background-color: #1D3557;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: #FFFFFF;
+}
+
+#hero--subtitle {
+    font-family: "Raleway", sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    background-color: #457B9D;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: #FFFFFF;
+}
+
+#activity--title {
+    background-color: #F1FAEE;
+    padding-top: 30px;
+}
+
+#title {
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    margin-top: 0;
+    color: #1D3557;
+}
+
+#activity--section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #F1FAEE;
+    color: #1D3557;
+    font-family: "Raleway", sans-serif;
+    padding: 0 0 30px 0;
+}
+
+.activity--name {
+    font-size: 16px;
+}
+
+.activity--content {
+    text-align: center;
+    width: 175px;
+    padding: 0 10px;
+}
+
+.activity--image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+#guide--section {
+    background: #FFFFFF;
+    padding: 30px 0 30px 0;
+}
+
+#guide--card {
+    display: flex;
+    align-items: center;
+    width: 400px;
+    margin: 0 auto 0 auto;
+    background-color: #A8DADC;
+    color: #1D3557;
+    padding: 15px 10px;
+    border-radius: 10px;
+    box-shadow: 0 5px 2px #1D3557;
+}
+
+.guide--image {
+    width: 180px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+#guide--content {
+    font-family: "Raleway", sans-serif;
+}
+
+#guide--title, 
+#guide--name {
+    font-size: 16px;
+}
+
+#guide--paragraph {
+    font-size: 14px;
+}
+
+#footer {
+    background-color: #F1FAEE;
+    text-align: center;
+    padding: 10px 0;
+}
+
+#footer--text {
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 16px;
+    color: #1D3557;
+    padding: 10px 0;
+}
